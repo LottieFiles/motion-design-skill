@@ -1,12 +1,14 @@
 ---
 name: motion-design
-description: |
-  Universal motion design principles for creating emotionally-driven, technically sound animations.
-  Teaches AI agents to think like motion directors — philosophy-first, implementation-agnostic.
-  Use when creating animations, transitions, micro-interactions, or any motion effects.
-  Works with CSS, Framer Motion, GSAP, Lottie, or any animation system.
+description: >
+  Applies motion design principles to create emotionally-driven, technically sound animations and transitions.
+  Provides timing, easing, choreography, and Disney animation principles adapted for UI.
+  Use when creating animations, transitions, micro-interactions, loading states, page transitions,
+  scroll-triggered effects, or any motion work. Works with CSS, Framer Motion, GSAP, Lottie, Spring,
+  or any animation system.
+license: MIT
 metadata:
-  author: nattu
+  author: LottieFiles
   version: "1.0.0"
 ---
 
