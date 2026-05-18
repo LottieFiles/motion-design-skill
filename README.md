@@ -1,3 +1,12 @@
+<p align="center">
+  <img
+    src="https://lottie.host/cdb5e749-f393-4333-ad23-8200f121e8d3/Z4sIS9xKDC.svg"
+    alt="dotLottie Animation"
+    width="550"
+  />
+</p>
+
+
 # Motion Design Skill
 
 Universal motion design principles for AI agents. Philosophy-first, implementation-agnostic.
