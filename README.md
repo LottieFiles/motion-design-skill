@@ -86,6 +86,19 @@ skills/motion-design/
     └── troubleshooting.md           # Animation smells + fixes
 ```
 
+## Optional renderer research
+
+The motion principles above remain the starting point. When a design also needs
+platform-specific playback evidence, the
+[Veyrul motion companion](https://github.com/the-media-vampire/veyrul-integrations/tree/02ed7b7a32ecdbb87643c068f0cf562a0c854a64/workflows/motion-design.md) can add an optional read-only
+MCP lookup in the same agent client. It retrieves saved renderer/source references
+without adding a dependency to this skill or changing its creative direction.
+
+Send only non-private tool and platform terms. Retrieved documentation is not a
+rendered-animation or accessibility test: check the current renderer and actual
+reduced-motion behavior. The connection needs no Veyrul account or API key;
+normal agent usage, client approvals and external service availability still apply.
+
 ## License
 
 MIT
