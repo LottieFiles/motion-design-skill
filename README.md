@@ -21,6 +21,17 @@ npx skills add LottieFiles/motion-design-skill
 
 Supports [40+ agents](https://skills.sh) including Claude Code, Cursor, Codex, GitHub Copilot, and more.
 
+## Need a rendered file?
+
+For MP4, GIF, WebM, dotLottie, or Lottie JSON exports, connect [Creator MCP](https://docs.lottiefiles.com/en/creator-mcp?utm_source=motion-design-skill&utm_medium=referral&utm_campaign=readme). Your agent builds the scene and exports to files.
+
+**Claude Code, Codex, Cursor:**
+```bash
+claude mcp add --transport http --scope user creator-mcp https://creator.mcp.lottiefiles.com/mcp
+```
+
+Full setup guide in `reference/export-and-render.md`.
+
 ## What's included
 
 **Core** (`SKILL.md`) — Quick reference with the 8-step checklist, motion personality archetypes, duration/easing tables, property selection guide, common patterns, and quality rules.
@@ -29,7 +40,7 @@ Supports [40+ agents](https://skills.sh) including Claude Code, Cursor, Codex, G
 
 **Patterns** (`patterns/`) — Ready-to-use recipes for entrance/exit animations, state feedback (success, error, loading, hover), ambient/continuous motion, and multi-element choreography.
 
-**Reference** (`reference/`) — Lookup tables for timing and easing, property selection guide, quality checklist, troubleshooting common animation problems, and handoff guide for rendered file exports via [Creator MCP](https://docs.lottiefiles.com/en/creator-mcp?utm_source=motion-design-skill&utm_medium=referral&utm_campaign=readme).
+**Reference** (`reference/`) — Lookup tables for timing and easing, property selection guide, quality checklist, and troubleshooting common animation problems.
 
 ## When it activates
 
