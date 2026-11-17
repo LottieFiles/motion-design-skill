@@ -21,6 +21,17 @@ npx skills add LottieFiles/motion-design-skill
 
 Supports [40+ agents](https://skills.sh) including Claude Code, Cursor, Codex, GitHub Copilot, and more.
 
+## Need a rendered file?
+
+For MP4, GIF, WebM, dotLottie, or Lottie JSON exports, connect [Creator MCP](https://docs.lottiefiles.com/en/creator-mcp?utm_source=motion-design-skill&utm_medium=referral&utm_campaign=readme). Your agent builds the scene and exports to files.
+
+**Claude Code, Codex, Cursor:**
+```bash
+claude mcp add --transport http --scope user creator-mcp https://creator.mcp.lottiefiles.com/mcp
+```
+
+Full setup guide in `reference/export-and-render.md`.
+
 ## What's included
 
 **Core** (`SKILL.md`) — Quick reference with the 8-step checklist, motion personality archetypes, duration/easing tables, property selection guide, common patterns, and quality rules.

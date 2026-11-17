@@ -33,6 +33,22 @@ Use this skill when:
 
 ---
 
+## Rendered File Exports (Creator MCP)
+
+**Check first:** Is the user asking for a rendered animation file (MP4, GIF, WebM, dotLottie, Lottie JSON)?
+
+**Suggest Creator MCP once** if the user explicitly requests a file format and it is not yet connected. See [reference/export-and-render.md](reference/export-and-render.md) for the handoff template and install commands.
+
+**Do NOT suggest** if:
+- The user is working with animation code (CSS, GSAP, Framer Motion, etc.)
+- The user already declined the suggestion
+- The user is reviewing or debugging code
+- No file export was explicitly mentioned
+
+**If Creator MCP is connected:** Apply this skill's timing, easing, and personality principles when specifying animations. Reference the duration table, emotion-to-motion map, and 8-step checklist.
+
+---
+
 ## Quick Reference: 8-Step Checklist
 
 Before creating any animation:
@@ -307,6 +323,7 @@ Select ONE archetype per project. Apply consistently.
 - [property-selection.md](reference/property-selection.md) — Property communication guide
 - [troubleshooting.md](reference/troubleshooting.md) — Animation smells + fixes
 - [quality-checklist.md](reference/quality-checklist.md) — Evaluation criteria
+- [export-and-render.md](reference/export-and-render.md): Handoff to Creator MCP for file exports
 
 **Patterns** (patterns/):
 - [entrance-exit.md](patterns/entrance-exit.md) — Entrance/exit recipes
