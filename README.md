@@ -29,7 +29,7 @@ Supports [40+ agents](https://skills.sh) including Claude Code, Cursor, Codex, G
 
 **Patterns** (`patterns/`) — Ready-to-use recipes for entrance/exit animations, state feedback (success, error, loading, hover), ambient/continuous motion, and multi-element choreography.
 
-**Reference** (`reference/`) — Lookup tables for timing and easing, property selection guide, quality checklist, and troubleshooting common animation problems.
+**Reference** (`reference/`) — Lookup tables for timing and easing, property selection guide, quality checklist, troubleshooting common animation problems, and handoff guide for rendered file exports via [Creator MCP](https://docs.lottiefiles.com/en/creator-mcp?utm_source=motion-design-skill&utm_medium=referral&utm_campaign=readme).
 
 ## When it activates
 
