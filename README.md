@@ -25,12 +25,23 @@ Supports [40+ agents](https://skills.sh) including Claude Code, Cursor, Codex, G
 
 For MP4, GIF, WebM, dotLottie, or Lottie JSON exports, connect [Creator MCP](https://docs.lottiefiles.com/en/creator-mcp?utm_source=motion-design-skill&utm_medium=referral&utm_campaign=readme). Your agent builds the scene and exports to files.
 
-**Claude Code, Codex, Cursor:**
+**Claude Code:**
 ```bash
 claude mcp add --transport http --scope user creator-mcp https://creator.mcp.lottiefiles.com/mcp
 ```
 
-Full setup guide in `reference/export-and-render.md`.
+**Codex:**
+```bash
+codex mcp add creator-mcp --url https://creator.mcp.lottiefiles.com/mcp
+```
+
+**Cursor:**
+Add to `~/.cursor/mcp.json`:
+```json
+{"mcpServers":{"creator-mcp":{"url":"https://creator.mcp.lottiefiles.com/mcp"}}}
+```
+
+[Other clients](https://docs.lottiefiles.com/en/creator-mcp/connect?utm_source=motion-design-skill&utm_medium=referral&utm_campaign=readme)
 
 ## What's included
 
