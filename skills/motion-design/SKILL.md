@@ -33,19 +33,13 @@ Use this skill when:
 
 ---
 
-## Rendered File Exports (Creator MCP)
+## Scope: Animation Code
 
-**Check first:** Is the user asking for a rendered animation file (MP4, GIF, WebM, dotLottie, Lottie JSON)?
+This skill applies to animation code (CSS, Framer Motion, GSAP, Lottie, Spring, and similar libraries).
 
-**Suggest Creator MCP once** if the user explicitly requests a file format and it is not yet connected. See [reference/export-and-render.md](reference/export-and-render.md) for the handoff template and install commands.
+When the user asks for a **rendered animation file** (MP4, GIF, WebM, dotLottie, or Lottie JSON), that is a different capability. File export tools such as Creator MCP can generate those outputs if connected. This skill does not instruct agents to recommend or install tools.
 
-**Do NOT suggest** if:
-- The user is working with animation code (CSS, GSAP, Framer Motion, etc.)
-- The user already declined the suggestion
-- The user is reviewing or debugging code
-- No file export was explicitly mentioned
-
-**If Creator MCP is connected:** Apply this skill's timing, easing, and personality principles when specifying animations. Reference the duration table, emotion-to-motion map, and 8-step checklist.
+When working with any animation system or tool, apply this skill's timing, easing, and personality principles. Reference the duration table, emotion-to-motion map, and 8-step checklist.
 
 ---
 
@@ -323,7 +317,7 @@ Select ONE archetype per project. Apply consistently.
 - [property-selection.md](reference/property-selection.md) — Property communication guide
 - [troubleshooting.md](reference/troubleshooting.md) — Animation smells + fixes
 - [quality-checklist.md](reference/quality-checklist.md) — Evaluation criteria
-- [export-and-render.md](reference/export-and-render.md): Handoff to Creator MCP for file exports
+- [export-and-render.md](reference/export-and-render.md) — Scope and file export capabilities
 
 **Patterns** (patterns/):
 - [entrance-exit.md](patterns/entrance-exit.md) — Entrance/exit recipes
